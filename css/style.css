@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 0%, 95%);
+    height: 100vh;
+}
+
+.content-Colums{
+    display: flex;
+    background-color:red;
+    border-radius: 15px;
+}
+
+.column{
+    max-width: 306px;
+    max-height: 500px;
+    overflow: hidden;
+    padding: 45px 55px 60px 50px;
+}
+
+.car{
+    margin-bottom: 35px;
+}
+
+.column h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.column p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 14px;
+    margin-top: 14.5px;
+    max-width: 198px;
+    margin-bottom: 95px;
+    line-height: 25px;
+}
+
+.column-1{
+    background-color:hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.column-1 a{
+    color: hsl(31, 77%, 52%);
+}
+
+.column-2{
+    background-color:hsl(184, 100%, 22%);
+}
+
+.column-2 a{
+    color:hsl(184, 100%, 22%);
+}
+
+.column-3{
+    background-color:hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.column-3 a{
+    color:hsl(179, 100%, 13%);
+}
+
+.column a{
+    text-decoration:none;
+    background-color:hsl(0, 0%, 95%);
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 14px;
+    border-radius: 22.5px;
+    width: 147px;
+    height:48px;
+    padding:14px 33px;
+    border:2px solid hsl(0, 0%, 95%);
+}
+
+.column-1 a:hover {
+    background-color:hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.column-2 a:hover {
+    background-color:hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.column-3 a:hover {
+    background-color:hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+@media(max-width:375px){
+    .flex{
+        padding-bottom: 300px;
+        padding-top: 300px;
+    }
+
+    .content-Colums{
+       flex-direction: column;
+    }
+
+    .column-1{
+        border-radius: 10px 10px 0 0;
+    }
+
+    .column-3{
+        border-radius: 0 0 10px 10px ;
+    }
+
+    .column p{
+        margin-bottom: 40px;
+        font-size: 13px;
+    }
+
+    .column a{
+        font-size: 13px;
+        padding:12px 27px;
+        border:2px solid hsl(0, 0%, 95%);
+    }
+}
