@@ -48,8 +48,6 @@ Screenshot of the phone page 375px x 800px
 
 I want to learn more about responsive design, so that the pages can adapt much better to different devices, taking into account media query and different design techniques.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
 - [css-tricks](https://css-tricks.com/) - Within this page there are large sections related to learning css, the one I used the most was the FlexBox section. 
